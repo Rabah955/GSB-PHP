@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.3
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 31, 2020 at 01:28 AM
+-- Generation Time: May 29, 2020 at 09:31 PM
 -- Server version: 5.7.26
--- PHP Version: 7.4.2
+-- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -21,15 +21,15 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `comptable` (
-                             `id` char(4) NOT NULL,
-                             `nom` char(30) DEFAULT NULL,
-                             `prenom` char(30) DEFAULT NULL,
-                             `login` char(20) DEFAULT NULL,
-                             `mdp` varchar(255) DEFAULT NULL,
-                             `adresse` char(30) DEFAULT NULL,
-                             `cp` char(5) DEFAULT NULL,
-                             `ville` char(30) DEFAULT NULL,
-                             `dateembauche` date DEFAULT NULL
+  `id` char(4) NOT NULL,
+  `nom` char(30) DEFAULT NULL,
+  `prenom` char(30) DEFAULT NULL,
+  `login` char(20) DEFAULT NULL,
+  `mdp` varchar(255) DEFAULT NULL,
+  `adresse` char(30) DEFAULT NULL,
+  `cp` char(5) DEFAULT NULL,
+  `ville` char(30) DEFAULT NULL,
+  `dateembauche` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `comptable` (
 --
 
 INSERT INTO `comptable` (`id`, `nom`, `prenom`, `login`, `mdp`, `adresse`, `cp`, `ville`, `dateembauche`) VALUES
-('1', 'KOUAHO', 'Francis', 'adminC', '$2y$10$VGsqPuNhY13IDPY.sp5Ow.RpMZLwJSY8GbARjk.r64ebi0mbOq0mS', '', '9', '', '2009-09-09');
+('1', 'BOUSBAINE', 'Rabah', 'adminC', '$2y$10$VGsqPuNhY13IDPY.sp5Ow.RpMZLwJSY8GbARjk.r64ebi0mbOq0mS', '', '9', '', '2009-09-09');
 
 -- --------------------------------------------------------
 
@@ -46,8 +46,8 @@ INSERT INTO `comptable` (`id`, `nom`, `prenom`, `login`, `mdp`, `adresse`, `cp`,
 --
 
 CREATE TABLE `etat` (
-                        `id` char(2) NOT NULL,
-                        `libelle` varchar(30) DEFAULT NULL
+  `id` char(2) NOT NULL,
+  `libelle` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -68,13 +68,13 @@ INSERT INTO `etat` (`id`, `libelle`) VALUES
 --
 
 CREATE TABLE `fichefrais` (
-                              `idvisiteur` char(4) NOT NULL,
-                              `mois` char(6) NOT NULL,
-                              `nbjustificatifs` int(11) DEFAULT NULL,
-                              `montantvalide` decimal(10,2) DEFAULT NULL,
-                              `datemodif` date DEFAULT NULL,
-                              `idetat` char(2) DEFAULT 'CR',
-                              `idvehicule` varchar(255) DEFAULT NULL
+  `idvisiteur` char(4) NOT NULL,
+  `mois` char(6) NOT NULL,
+  `nbjustificatifs` int(11) DEFAULT NULL,
+  `montantvalide` decimal(10,2) DEFAULT NULL,
+  `datemodif` date DEFAULT NULL,
+  `idetat` char(2) DEFAULT 'CR',
+  `idvehicule` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -94,7 +94,8 @@ INSERT INTO `fichefrais` (`idvisiteur`, `mois`, `nbjustificatifs`, `montantvalid
 ('a131', '201901', 9, '2016.00', '2019-03-08', 'RB', '5/6CVD'),
 ('a131', '201902', 11, '4079.50', '2019-04-06', 'RB', '5/6CVD'),
 ('a131', '201903', 3, '4546.52', '2019-04-08', 'VA', '5/6CVD'),
-('a131', '201904', 0, '0.00', '2019-04-02', 'CR', '5/6CVD'),
+('a131', '201904', 0, '0.00', '2020-05-29', 'CL', '5/6CVD'),
+('a131', '202005', 0, '0.00', '2020-05-29', 'CR', '5/6CVD'),
 ('a17', '201811', 2, '1621.93', '2019-01-06', 'RB', '5/6CVE'),
 ('a17', '201812', 4, '3449.80', '2019-02-02', 'RB', '5/6CVE'),
 ('a17', '201901', 7, '2286.54', '2019-03-01', 'RB', '5/6CVE'),
@@ -187,9 +188,9 @@ INSERT INTO `fichefrais` (`idvisiteur`, `mois`, `nbjustificatifs`, `montantvalid
 --
 
 CREATE TABLE `fraisforfait` (
-                                `id` char(3) NOT NULL,
-                                `libelle` char(20) DEFAULT NULL,
-                                `montant` decimal(5,2) DEFAULT NULL
+  `id` char(3) NOT NULL,
+  `libelle` char(20) DEFAULT NULL,
+  `montant` decimal(5,2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -209,10 +210,10 @@ INSERT INTO `fraisforfait` (`id`, `libelle`, `montant`) VALUES
 --
 
 CREATE TABLE `lignefraisforfait` (
-                                     `idvisiteur` char(4) NOT NULL,
-                                     `mois` char(6) NOT NULL,
-                                     `idfraisforfait` char(3) NOT NULL,
-                                     `quantite` int(11) DEFAULT NULL
+  `idvisiteur` char(4) NOT NULL,
+  `mois` char(6) NOT NULL,
+  `idfraisforfait` char(3) NOT NULL,
+  `quantite` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -272,6 +273,10 @@ INSERT INTO `lignefraisforfait` (`idvisiteur`, `mois`, `idfraisforfait`, `quanti
 ('a131', '201904', 'KM', 442),
 ('a131', '201904', 'NUI', 3),
 ('a131', '201904', 'REP', 8),
+('a131', '202005', 'ETP', 0),
+('a131', '202005', 'KM', 0),
+('a131', '202005', 'NUI', 0),
+('a131', '202005', 'REP', 0),
 ('a17', '201811', 'ETP', 2),
 ('a17', '201811', 'KM', 379),
 ('a17', '201811', 'NUI', 13),
@@ -616,13 +621,13 @@ INSERT INTO `lignefraisforfait` (`idvisiteur`, `mois`, `idfraisforfait`, `quanti
 --
 
 CREATE TABLE `lignefraishorsforfait` (
-                                         `id` int(11) NOT NULL,
-                                         `idvisiteur` char(4) NOT NULL,
-                                         `mois` char(6) NOT NULL,
-                                         `libelle` varchar(100) DEFAULT NULL,
-                                         `date` date DEFAULT NULL,
-                                         `montant` decimal(10,2) DEFAULT NULL,
-                                         `refus` tinyint(1) NOT NULL
+  `id` int(11) NOT NULL,
+  `idvisiteur` char(4) NOT NULL,
+  `mois` char(6) NOT NULL,
+  `libelle` varchar(100) DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `montant` decimal(10,2) DEFAULT NULL,
+  `refus` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -921,9 +926,9 @@ INSERT INTO `lignefraishorsforfait` (`id`, `idvisiteur`, `mois`, `libelle`, `dat
 --
 
 CREATE TABLE `vehicule` (
-                            `id` varchar(255) NOT NULL,
-                            `libelle` varchar(255) NOT NULL,
-                            `montant` float NOT NULL
+  `id` varchar(255) NOT NULL,
+  `libelle` varchar(255) NOT NULL,
+  `montant` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -943,16 +948,16 @@ INSERT INTO `vehicule` (`id`, `libelle`, `montant`) VALUES
 --
 
 CREATE TABLE `visiteur` (
-                            `id` char(4) NOT NULL,
-                            `nom` char(30) DEFAULT NULL,
-                            `prenom` char(30) DEFAULT NULL,
-                            `login` char(20) DEFAULT NULL,
-                            `mdp` varchar(255) DEFAULT NULL,
-                            `adresse` char(30) DEFAULT NULL,
-                            `cp` char(5) DEFAULT NULL,
-                            `ville` char(30) DEFAULT NULL,
-                            `dateembauche` date DEFAULT NULL,
-                            `typevehicule` varchar(255) DEFAULT NULL
+  `id` char(4) NOT NULL,
+  `nom` char(30) DEFAULT NULL,
+  `prenom` char(30) DEFAULT NULL,
+  `login` char(20) DEFAULT NULL,
+  `mdp` varchar(255) DEFAULT NULL,
+  `adresse` char(30) DEFAULT NULL,
+  `cp` char(5) DEFAULT NULL,
+  `ville` char(30) DEFAULT NULL,
+  `dateembauche` date DEFAULT NULL,
+  `typevehicule` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -960,7 +965,7 @@ CREATE TABLE `visiteur` (
 --
 
 INSERT INTO `visiteur` (`id`, `nom`, `prenom`, `login`, `mdp`, `adresse`, `cp`, `ville`, `dateembauche`, `typevehicule`) VALUES
-('1', 'KOUAHO', 'Francis', 'adminV', '$2y$10$nShARmzUlGInDjfL2b4P6.GzqeMNPOOghXmg/GIjWhOeeJLle3vcK', '23 rue du parapluie', '46000', 'Cahors', '2018-10-10', '5/6CVD'),
+('1', 'BOUSBAINE', 'Rabah', 'adminR', '$2y$10$nShARmzUlGInDjfL2b4P6.GzqeMNPOOghXmg/GIjWhOeeJLle3vcK', '75 Rue de Paris', '75000', 'Cahors', '2020-03-06', '5/6CVD'),
 ('a131', 'Villechalane', 'Louis', 'lvillachane', '$2y$10$uddNWdomg51PMDZcaW7HkeCpJf67AxgsyOvyrUNePrlrKXU7HHUYi', '8 rue des Charmes', '46000', 'Cahors', '2005-12-21', '5/6CVD'),
 ('a17', 'Andre', 'David', 'dandre', '$2y$10$mjtTAWPkBlcABnD8kWmmfuxCDAxpCLRl3gr2NQQvbaoMikKXZxNXO', '1 rue Petit', '46200', 'Lalbenque', '1998-11-23', '5/6CVE'),
 ('a55', 'Bedos', 'Christian', 'cbedos', '$2y$10$wv9yPBZazpqsiboNqMuYSusIof.MopW827JzLEX.qgCB.VnPI7bEq', '1 rue Peranud', '46250', 'Montcuq', '1995-01-12', '5/6CVE'),
@@ -997,54 +1002,54 @@ INSERT INTO `visiteur` (`id`, `nom`, `prenom`, `login`, `mdp`, `adresse`, `cp`, 
 -- Indexes for table `comptable`
 --
 ALTER TABLE `comptable`
-    ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `etat`
 --
 ALTER TABLE `etat`
-    ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `fichefrais`
 --
 ALTER TABLE `fichefrais`
-    ADD PRIMARY KEY (`idvisiteur`,`mois`),
-    ADD KEY `idetat` (`idetat`),
-    ADD KEY `idvehicule` (`idvehicule`);
+  ADD PRIMARY KEY (`idvisiteur`,`mois`),
+  ADD KEY `idetat` (`idetat`),
+  ADD KEY `idvehicule` (`idvehicule`);
 
 --
 -- Indexes for table `fraisforfait`
 --
 ALTER TABLE `fraisforfait`
-    ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `lignefraisforfait`
 --
 ALTER TABLE `lignefraisforfait`
-    ADD PRIMARY KEY (`idvisiteur`,`mois`,`idfraisforfait`),
-    ADD KEY `idfraisforfait` (`idfraisforfait`);
+  ADD PRIMARY KEY (`idvisiteur`,`mois`,`idfraisforfait`),
+  ADD KEY `idfraisforfait` (`idfraisforfait`);
 
 --
 -- Indexes for table `lignefraishorsforfait`
 --
 ALTER TABLE `lignefraishorsforfait`
-    ADD PRIMARY KEY (`id`),
-    ADD KEY `idvisiteur` (`idvisiteur`,`mois`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idvisiteur` (`idvisiteur`,`mois`);
 
 --
 -- Indexes for table `vehicule`
 --
 ALTER TABLE `vehicule`
-    ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `visiteur`
 --
 ALTER TABLE `visiteur`
-    ADD PRIMARY KEY (`id`),
-    ADD KEY `typevehicule` (`typevehicule`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `typevehicule` (`typevehicule`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -1054,7 +1059,7 @@ ALTER TABLE `visiteur`
 -- AUTO_INCREMENT for table `lignefraishorsforfait`
 --
 ALTER TABLE `lignefraishorsforfait`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13153;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13153;
 
 --
 -- Constraints for dumped tables
@@ -1064,25 +1069,25 @@ ALTER TABLE `lignefraishorsforfait`
 -- Constraints for table `fichefrais`
 --
 ALTER TABLE `fichefrais`
-    ADD CONSTRAINT `fichefrais_ibfk_1` FOREIGN KEY (`idetat`) REFERENCES `etat` (`id`),
-    ADD CONSTRAINT `fichefrais_ibfk_2` FOREIGN KEY (`idvisiteur`) REFERENCES `visiteur` (`id`),
-    ADD CONSTRAINT `idvehicule` FOREIGN KEY (`idvehicule`) REFERENCES `vehicule` (`id`);
+  ADD CONSTRAINT `fichefrais_ibfk_1` FOREIGN KEY (`idetat`) REFERENCES `etat` (`id`),
+  ADD CONSTRAINT `fichefrais_ibfk_2` FOREIGN KEY (`idvisiteur`) REFERENCES `visiteur` (`id`),
+  ADD CONSTRAINT `idvehicule` FOREIGN KEY (`idvehicule`) REFERENCES `vehicule` (`id`);
 
 --
 -- Constraints for table `lignefraisforfait`
 --
 ALTER TABLE `lignefraisforfait`
-    ADD CONSTRAINT `lignefraisforfait_ibfk_1` FOREIGN KEY (`idvisiteur`,`mois`) REFERENCES `fichefrais` (`idvisiteur`, `mois`),
-    ADD CONSTRAINT `lignefraisforfait_ibfk_2` FOREIGN KEY (`idfraisforfait`) REFERENCES `fraisforfait` (`id`);
+  ADD CONSTRAINT `lignefraisforfait_ibfk_1` FOREIGN KEY (`idvisiteur`,`mois`) REFERENCES `fichefrais` (`idvisiteur`, `mois`),
+  ADD CONSTRAINT `lignefraisforfait_ibfk_2` FOREIGN KEY (`idfraisforfait`) REFERENCES `fraisforfait` (`id`);
 
 --
 -- Constraints for table `lignefraishorsforfait`
 --
 ALTER TABLE `lignefraishorsforfait`
-    ADD CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idvisiteur`,`mois`) REFERENCES `fichefrais` (`idvisiteur`, `mois`);
+  ADD CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idvisiteur`,`mois`) REFERENCES `fichefrais` (`idvisiteur`, `mois`);
 
 --
 -- Constraints for table `visiteur`
 --
 ALTER TABLE `visiteur`
-    ADD CONSTRAINT `typevehicule` FOREIGN KEY (`typevehicule`) REFERENCES `vehicule` (`id`);
+  ADD CONSTRAINT `typevehicule` FOREIGN KEY (`typevehicule`) REFERENCES `vehicule` (`id`);
