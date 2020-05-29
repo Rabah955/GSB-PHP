@@ -5,7 +5,7 @@
  *
  * PHP Version 7
  * @category  PPE
- * @author    KOUAHO Francis & BRECHIARE Vincent & BENMOUSSA Salim
+ * @author    BOUSBAINE Rabah
  * @link      http://www.reseaucerta.org Contexte « Laboratoire GSB »
  */
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);

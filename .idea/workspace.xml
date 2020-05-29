@@ -21,6 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="da47b095-2c3c-4a56-99b3-bd10f2394fa0" name="Default Changelist" comment="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/accueilComptable.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/accueilComptable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/deconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/deconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/etatFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/etatFrais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/gererFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/gererFrais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/suivrePaiementFiche.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/suivrePaiementFiche.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/validerFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/validerFrais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/composantsFormulaires.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/composantsFormulaires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/HeaderComptable.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/HeaderComptable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/deconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/deconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/listeMois.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/listeMois.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +226,8 @@
       <workItem from="1587207947862" duration="751000" />
       <workItem from="1590770939231" duration="825000" />
       <workItem from="1590787549597" duration="494000" />
-      <workItem from="1590788235238" duration="140000" />
+      <workItem from="1590788235238" duration="369000" />
+      <workItem from="1590789653684" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <created>1585483900841</created>
