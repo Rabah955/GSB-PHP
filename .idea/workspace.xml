@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da47b095-2c3c-4a56-99b3-bd10f2394fa0" name="Default Changelist" comment="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:Naori-Uchiwa/GSB_FrancisVincentSalim.git" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/phar-update" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/json" />
+      <path value="$PROJECT_DIR$/vendor/cilex/cilex" />
+      <path value="$PROJECT_DIR$/vendor/cilex/console-service-provider" />
+      <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/document" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/base" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/kherge/version" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/graphviz" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/fileset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ZZnMeiiJvhTDV29LBVJcBtDhbF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.PdoGsbTest">
+    <configuration name="testID.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GSB_Frais_Francis&amp;Vincent&amp;Salim/testID.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="PdoGsbTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="PdoGsbTest" file="$PROJECT_DIR$/tests/includes/class.pdogsb.incTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.testID.php" />
+      <item itemvalue="PHPUnit.PdoGsbTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.PdoGsbTest" />
+        <item itemvalue="JavaScript Debug.testID.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="1" Folder0="$USER_HOME$" CustomDictionaries="1" CustomDictionary0="$USER_HOME$/fr.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da47b095-2c3c-4a56-99b3-bd10f2394fa0" name="Default Changelist" comment="" />
+      <created>1550960281743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550960281743</updated>
+      <workItem from="1550960282841" duration="1000000" />
+      <workItem from="1550999050579" duration="1562000" />
+      <workItem from="1551002568669" duration="92000" />
+      <workItem from="1551483908846" duration="756000" />
+      <workItem from="1551536699394" duration="701000" />
+      <workItem from="1551620098002" duration="602000" />
+      <workItem from="1552853289095" duration="1795000" />
+      <workItem from="1553191975694" duration="15000" />
+      <workItem from="1585055442680" duration="1137000" />
+      <workItem from="1585147638158" duration="35000" />
+      <workItem from="1585147684772" duration="320000" />
+      <workItem from="1585148061770" duration="681000" />
+      <workItem from="1585149990361" duration="828000" />
+      <workItem from="1585150980343" duration="1421000" />
+      <workItem from="1585152457470" duration="336000" />
+      <workItem from="1585153111191" duration="159000" />
+      <workItem from="1585153325034" duration="220000" />
+      <workItem from="1585221904122" duration="118000" />
+      <workItem from="1585482968837" duration="742000" />
+      <workItem from="1585511833638" duration="3495000" />
+      <workItem from="1585597493026" duration="1759000" />
+      <workItem from="1585600082647" duration="10394000" />
+      <workItem from="1585646375974" duration="544000" />
+      <workItem from="1585815518566" duration="7062000" />
+      <workItem from="1585831362360" duration="3827000" />
+      <workItem from="1586622531562" duration="8644000" />
+      <workItem from="1586631607470" duration="1000" />
+      <workItem from="1586971340902" duration="79000" />
+      <workItem from="1586971425023" duration="222000" />
+      <workItem from="1587060792621" duration="1000" />
+      <workItem from="1587062238708" duration="12000" />
+      <workItem from="1587207947862" duration="751000" />
+      <workItem from="1590770939231" duration="674000" />
+    </task>
+    <task id="LOCAL-00001" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
+      <created>1585483900841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585483900842</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
+      <created>1585610677219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585610677219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
+      <created>1586971461351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586971461351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="103" key="#CLI_Interpreters" timestamp="1585152614479">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="103" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1585152614479" />
+    <state x="320" y="115" key="#Inspections" timestamp="1585153379190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1585153379189" />
+    <state x="320" y="115" key="#Notifications" timestamp="1585147700719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1585147700719" />
+    <state x="396" y="12" width="673" height="876" key="#PHP" timestamp="1585147813753">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="396" y="12" width="673" height="876" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1585147813753" />
+    <state x="341" y="88" key="#PdoGsbTest" timestamp="1585823412041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="341" y="53" key="#PdoGsbTest.testMajEtatFicheFrais" timestamp="1585610631713">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="341" y="53" key="#PdoGsbTest.testMajEtatFicheFrais/0.0.1440.900@0.0.1440.900" timestamp="1585610631713" />
+    <state x="341" y="88" key="#PdoGsbTest/0.0.1440.900@0.0.1440.900" timestamp="1585823412041" />
+    <state x="308" y="103" key="#Test_Frameworks" timestamp="1585153357766">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="103" key="#Test_Frameworks/0.0.1440.900@0.0.1440.900" timestamp="1585153357766" />
+    <state x="267" y="152" key="#Web_Browsers" timestamp="1585610817501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="152" key="#Web_Browsers/0.0.1440.900@0.0.1440.900" timestamp="1585610817501" />
+    <state x="132" y="147" width="1071" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585817618162">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.62.1680.1050/0.0.1440.900@0.0.1440.900" timestamp="1585055521664" />
+    <state x="132" y="147" width="1071" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585817618162" />
+    <state x="267" y="0" key="CommitChangelistDialog2" timestamp="1585610677018">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585610677018" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1585613031631">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585613031631" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1585613031630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585613031630" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1585613031629">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585613031629" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1585613031631">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585613031631" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1585152807231">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585152807231" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1585152807230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585152807230" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1585152807229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585152807229" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1585152807230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585152807230" />
+    <state x="538" y="367" key="NewPhpFileDialog" timestamp="1586622754609">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="538" y="367" key="NewPhpFileDialog/0.23.1440.836@0.23.1440.836" timestamp="1586622754609" />
+    <state x="221" y="106" key="SettingsEditor" timestamp="1586971399195">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585152514938" />
+    <state x="221" y="106" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1586971399195" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1586971464032">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585610680027" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1586971464032" />
+    <state x="193" y="120" width="1240" height="700" key="dock-window-1" timestamp="1585055522843">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="193" y="120" width="1240" height="700" key="dock-window-1/-1680.62.1680.1050/0.0.1440.900@0.0.1440.900" timestamp="1585055522843" />
+    <state x="385" y="200" key="run.anything.popup" timestamp="1586971412375">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="385" y="200" key="run.anything.popup/0.23.1440.836@0.23.1440.836" timestamp="1586971412375" />
+  </component>
+</project>
