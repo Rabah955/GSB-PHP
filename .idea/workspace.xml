@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da47b095-2c3c-4a56-99b3-bd10f2394fa0" name="Default Changelist" comment="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gsb_frais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gsb_frais.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,7 @@
       <workItem from="1587062238708" duration="12000" />
       <workItem from="1587207947862" duration="751000" />
       <workItem from="1590770939231" duration="825000" />
-      <workItem from="1590787549597" duration="395000" />
+      <workItem from="1590787549597" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <created>1585483900841</created>
