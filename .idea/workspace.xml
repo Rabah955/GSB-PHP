@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da47b095-2c3c-4a56-99b3-bd10f2394fa0" name="Default Changelist" comment="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.PdoGsbTest">
+  <component name="RunManager" selected="JavaScript Debug.testID.php">
     <configuration name="testID.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GSB_Frais_Francis&amp;Vincent&amp;Salim/testID.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -163,7 +163,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.PdoGsbTest" />
         <item itemvalue="JavaScript Debug.testID.php" />
       </list>
     </recent_temporary>
@@ -221,6 +220,9 @@
       <workItem from="1590791293052" duration="73000" />
       <workItem from="1590791368935" duration="191000" />
       <workItem from="1590792407618" duration="130000" />
+      <workItem from="1590792599387" duration="176000" />
+      <workItem from="1591993452755" duration="7000" />
+      <workItem from="1591993531714" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="v_header.php&#10;v_HeaderComptable.php&#10;&#10;&quot; Modification de ces pages &quot;">
       <created>1585483900841</created>

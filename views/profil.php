@@ -29,7 +29,7 @@
                 <div class="profile-section">
 
                     <div class="profile-img-section">
-                        <img src="https://lh3.googleusercontent.com/-vMhoOKQaJWA/Vwyk_X8wazE/AAAAAAAAFXI/WGb-BrDr_m45C2IEdgpTJ7Zrzmb8yeccgCHMYCg/FirstDayAtSchool?imgmax=160&crop=1" class="img-responsive profile-img">
+                        <img src="https://image.freepik.com/vecteurs-libre/caricature-profil-homme-affaires_18591-58479.jpg" class="img-responsive profile-img">
                     </div>
                     <div class="text-information">
                         <h2 class="main-name"><?php
