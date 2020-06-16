@@ -1,7 +1,7 @@
 <?php
 /**
  * Index du projet GSB
- * @author    KOUAHO Francis & BRECHIARE Vincent & BENMOUSSA Salim
+ * @author    BOUSBAINE Rabah
  */
 
 require_once 'models/fct.inc.php';
